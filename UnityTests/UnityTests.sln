@@ -1,11 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTests", "UnityTests\UnityTests.csproj", "{19121B09-C63C-48F0-8C56-2005B27CE805}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTests.MDI", "UnityTests.MDI\UnityTests.MDI.csproj", "{95FAFA87-026F-4338-81FA-D5539723E337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTests.VisualStudio", "UnityTests.VisualStudio\UnityTests.VisualStudio.csproj", "{B1EB1A01-F956-430E-B469-43BDAF6A5342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTests.VisualStudio.Package", "UnityTests.VisualStudio.Package\UnityTests.VisualStudio.Package.csproj", "{8AF54D2F-D2E5-4FDF-8B79-B37A9F42FD11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTests.VisualStudio.Package_IntegrationTests", "UnityTests.VisualStudio.Package\UnityTests.VisualStudio.Package_IntegrationTests\UnityTests.VisualStudio.Package_IntegrationTests.csproj", "{222320B6-BD5C-4766-9127-DA9A8A09D31C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{813C98C5-A27D-4FBD-A470-A9C62E21F5AE}"
+	ProjectSection(SolutionItems) = preProject
+		IntegrationTests.testsettings = IntegrationTests.testsettings
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTests.VisualStudio.Package_UnitTests", "UnityTests.VisualStudio.Package\UnityTests.VisualStudio.Package_UnitTests\UnityTests.VisualStudio.Package_UnitTests.csproj", "{5CC70AF7-B4CB-4EDB-A4FE-CC98C587EA1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +25,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19121B09-C63C-48F0-8C56-2005B27CE805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19121B09-C63C-48F0-8C56-2005B27CE805}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19121B09-C63C-48F0-8C56-2005B27CE805}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19121B09-C63C-48F0-8C56-2005B27CE805}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95FAFA87-026F-4338-81FA-D5539723E337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95FAFA87-026F-4338-81FA-D5539723E337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FAFA87-026F-4338-81FA-D5539723E337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FAFA87-026F-4338-81FA-D5539723E337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EB1A01-F956-430E-B469-43BDAF6A5342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EB1A01-F956-430E-B469-43BDAF6A5342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EB1A01-F956-430E-B469-43BDAF6A5342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EB1A01-F956-430E-B469-43BDAF6A5342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF54D2F-D2E5-4FDF-8B79-B37A9F42FD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF54D2F-D2E5-4FDF-8B79-B37A9F42FD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF54D2F-D2E5-4FDF-8B79-B37A9F42FD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF54D2F-D2E5-4FDF-8B79-B37A9F42FD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222320B6-BD5C-4766-9127-DA9A8A09D31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222320B6-BD5C-4766-9127-DA9A8A09D31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222320B6-BD5C-4766-9127-DA9A8A09D31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222320B6-BD5C-4766-9127-DA9A8A09D31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC70AF7-B4CB-4EDB-A4FE-CC98C587EA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC70AF7-B4CB-4EDB-A4FE-CC98C587EA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC70AF7-B4CB-4EDB-A4FE-CC98C587EA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC70AF7-B4CB-4EDB-A4FE-CC98C587EA1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
